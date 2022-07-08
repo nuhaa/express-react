@@ -8,3 +8,5 @@ Step folder express (nodemon index.js)
 - create folder routes
 - create folder config
 
+token jwt
+- https://www.youtube.com/watch?v=Tw5LupcpKS4&t=421s
