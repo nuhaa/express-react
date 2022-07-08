@@ -2,14 +2,15 @@
 
 # dependencies
 /express/node_modules
-/.pnp
-.pnp.js
+/frontend/node_modules
+/express/.pnp
+/express/.pnp.js
 
 # testing
-/coverage
+/express/coverage
 
 # production
-/build
+/express/build
 
 # misc
 .DS_Store
