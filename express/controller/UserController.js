@@ -1,5 +1,6 @@
 import User from "../models/UserModel.js";
 import { Op } from "sequelize";
+import jwt from "jsonwebtoken";
 
 export const getUsers = async(req, res) => {
     const page = parseInt(req.query.page) || 0;

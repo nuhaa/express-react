@@ -4,6 +4,8 @@ import bodyParser from "body-parser";
 import UserRoutes from "./routes/UserRoute.js";
 import AuthRoutes from "./routes/AuthRoute.js";
 import GlobalRoutes from "./routes/GlobalRoute.js";
+import dotenv from "dotenv";
+dotenv.config();
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
